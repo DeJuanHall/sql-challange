@@ -28,8 +28,7 @@ Inspect the CSVs and sketch out an ERD of the tables.
 
 * Use the information you have to create a table schema for each of the six CSV files. Remember to specify data types, primary keys, foreign keys, and other constraints.
 
-''' 
-
+``` 
 -- Data Engineering --
 -- Drop Tables if Existing
 DROP TABLE IF EXISTS departments;
@@ -114,8 +113,7 @@ SELECT * FROM dept_manager;
 SELECT * FROM employees;
 SELECT * FROM salaries;
 SELECT * FROM titles;
-
-'''
+```
 
 * Import each CSV file into the corresponding SQL table. **Note** be sure to import the data in the same order that the tables were created and account for the headers when importing to avoid errors.
 
@@ -124,7 +122,7 @@ SELECT * FROM titles;
 Once you have a complete database, do the following:
 
 1. List the following details of each employee: employee number, last name, first name, gender, and salary.
-'''
+```
 SELECT employees.emp_no, employees.last_name, employees.first_name, employees.gender, salaries.salary
 FROM employees
 JOIN salaries
@@ -198,8 +196,6 @@ GROUP BY last_name
 ORDER BY
 COUNT(last_name) DESC;
 ```
-
-
 
 ## Epilogue
 
