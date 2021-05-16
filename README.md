@@ -22,7 +22,7 @@ Note: You may hear the term "Data Modeling" in place of "Data Engineering," but 
 
 Inspect the CSVs and sketch out an ERD of the tables.
 
-![](Images\Entity Relationship Diagram (ERD).png)
+https://github.com/DeJuanHall/sql-challange/blob/main/Images/Entity%20Relationship%20Diagram%20(ERD).png
 
 #### Data Engineering
 
